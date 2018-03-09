@@ -28,7 +28,7 @@ TopDownGame.Game.prototype = {
     }
     this.music = this.add.audio('megalovania');
     this.music.play(); 
-    this.music.volume = 1;
+    this.music.volume = 0.5;
 
     this.cleanup();
 
