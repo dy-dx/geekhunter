@@ -10,7 +10,7 @@ function Enemy (game, x, y, properties) {
     this.originalLocation = {x: x, y: y};
 
 
-    this.health = 50;
+    this.health = 10;
     this.defense = 6;
     this.strength = 4;
 };
