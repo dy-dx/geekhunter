@@ -16,7 +16,7 @@ function Player (game, x, y) {
     this.maxSpeed = 50;
     this.sprintSpeed = 1000;
 
-    this.health = 10;
+    this.health = 100;
     this.inventory = [
       { name: 'potion',    value: 20, type: 'healing',  description: 'Heals you for 20 HP'},
       { name: 'hi potion', value: 50, type: 'healing', description: 'Heals you for 50 HP' },
