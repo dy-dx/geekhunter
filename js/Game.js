@@ -28,7 +28,7 @@ TopDownGame.Game.prototype = {
     }
     this.music = this.add.audio('megalovania');
     this.music.play(); 
-    this.music.volume = 0;
+    this.music.volume = 0.5;
 
     this.cleanup();
 
@@ -171,7 +171,7 @@ TopDownGame.Game.prototype = {
     
     // For debugging: immediately start battle with first enemy
    // this.startBattle(this.player, this.enemies.getFirstAlive());
-   this.game.state.start('GameOver');
+   //this.game.state.start('GameOver');
   },
   collect: function(player, collectable) {
     console.log('yummy!');
